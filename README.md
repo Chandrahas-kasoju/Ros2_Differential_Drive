@@ -6,8 +6,9 @@
 ```
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
+https://github.com/Chandrahas-kasoju/Ros2_Differential_Drive.git
+cd ~/ros2_ws
 rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
-cd ~/ros2_ign
 colcon build
 ```
 ## Simulation

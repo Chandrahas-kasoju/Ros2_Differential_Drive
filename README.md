@@ -10,6 +10,8 @@ https://github.com/Chandrahas-kasoju/Ros2_Differential_Drive.git
 cd ~/ros2_ws
 rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
 colcon build
+source /opt/ros/$ROS_DISTRO/setup.bash
+source /home/ros2_ws/install/setup.bash
 ```
 ## Simulation
 - To start the simulation launch the following command
